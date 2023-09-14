@@ -1,0 +1,75 @@
+/* Styles for the main container */
+.shed-body-wrap {
+    background: #fff;
+    margin: 30px;
+    box-shadow: 3px 3px 10px #dbdbdb;
+}
+
+/* Header style */
+.shed-setting-header {
+    background: #2A4E69;
+    color: #fff; /* Added text color for better visibility */
+}
+
+/* Content padding */
+.shed-content {
+    padding: 10px 30px;
+}
+
+/* Text color for headings within .shed-light elements */
+.shed-light h2 {
+    color: #fff;
+}
+
+/* Style for form table rows */
+.form-table tr {
+    border-bottom: 1px solid #009dd142; /* Added a missing # symbol */
+}
+
+/* Styles for form table headers and labels */
+.form-table th,
+.form-wrap label {
+    color: #2a4e69;
+    vertical-align: middle;
+}
+
+/* Style for form table input fields */
+table.form-table input {
+    width: 200px;
+    height: 45px;
+    border-radius: 0px;
+    background: rgba(90, 183, 255, 0.36); /* Adjusted background color with alpha transparency */
+    border: none;
+    vertical-align: middle;
+}
+
+/* Style for color input fields */
+input[type=color]  {
+    padding: 0;
+    background: none !important;
+    max-width: 50px;
+    min-height: 50px !important;
+}
+
+/* Style for small checkboxes and radio buttons */
+.wp-admin p input[type=checkbox],
+.wp-admin p input[type=radio],
+td>input[type=checkbox]
+
+ {
+    width: 30px;
+    height: 30px;
+    padding: 8px !important;
+}
+
+.form-table input[type=radio] {
+    width: 45px;
+}
+
+input[type=radio]:checked::before {
+    width: 45px;
+    height: 45px;
+    border-radius: 0;
+    margin: 0px;
+    background-color: #2747E7;
+} 
